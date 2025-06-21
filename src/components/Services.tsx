@@ -17,18 +17,18 @@ const Services = () => {
         "Goal tracking",
       ],
     },
-    {
-      icon: <HiUsers className="h-8 w-8" />,
-      title: "Group Training Sessions",
-      description:
-        "High-energy group workouts that combine strength training with community support. Perfect for motivation and accountability.",
-      features: [
-        "Small group sizes",
-        "Team motivation",
-        "Competitive elements",
-        "Social support",
-      ],
-    },
+    // {
+    //   icon: <HiUsers className="h-8 w-8" />,
+    //   title: "Group Training Sessions",
+    //   description:
+    //     "High-energy group workouts that combine strength training with community support. Perfect for motivation and accountability.",
+    //   features: [
+    //     "Small group sizes",
+    //     "Team motivation",
+    //     "Competitive elements",
+    //     "Social support",
+    //   ],
+    // },
     {
       icon: <HiCalendar className="h-8 w-8" />,
       title: "Flexible Scheduling",
@@ -95,7 +95,7 @@ const Services = () => {
         </div>
 
         {/* Services Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16 justify-center place-items-center">
           {services.map((service, index) => (
             <div
               key={index}

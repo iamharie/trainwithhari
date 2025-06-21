@@ -13,7 +13,7 @@ const Footer = () => {
               <div className="bg-gradient-to-r from-blue-600 to-green-600 p-2 rounded-lg">
                 <CgGym className="h-6 w-6 text-white" />
               </div>
-              <span className="text-2xl font-bold">FitCoach Pro</span>
+              <span className="text-2xl font-bold">Trainwithhari</span>
             </div>
             <p className="text-gray-400 mb-6 max-w-md leading-relaxed">
               Transforming lives through professional strength training
@@ -22,7 +22,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://instagram.com/fitcoachpro"
+                href="https://www.instagram.com/trainwithharie/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gradient-to-r from-pink-500 to-purple-600 p-3 rounded-full hover:from-pink-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-110"
@@ -30,7 +30,7 @@ const Footer = () => {
                 <FaInstagram className="h-5 w-5" />
               </a>
               <a
-                href="mailto:coach@fitcoachpro.com"
+                href="mailto:haranhari350@gmail.com"
                 className="bg-gradient-to-r from-blue-500 to-blue-600 p-3 rounded-full hover:from-blue-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-110"
               >
                 <FaEnvelope className="h-5 w-5" />
@@ -82,12 +82,12 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Get In Touch</h3>
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
-                <FaEnvelope className="h-5 w-5 text-blue-400" />
-                <span className="text-gray-400">coach@fitcoachpro.com</span>
+                {/* <FaEnvelope className="h-5 w-5 text-blue-400" />
+                <span className="text-gray-400">coach@fitcoachpro.com</span> */}
               </div>
               <div className="flex items-center space-x-3">
                 <FaInstagram className="h-5 w-5 text-pink-400" />
-                <span className="text-gray-400">@fitcoachpro</span>
+                <span className="text-gray-400">@trainwithharie</span>
               </div>
             </div>
 
@@ -109,7 +109,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-2 text-gray-400 text-sm">
-              <span>© 2025 FitCoach Pro. All rights reserved.</span>
+              <span>© 2025 Trainwithhari. All rights reserved.</span>
             </div>
             <div className="flex items-center space-x-1 text-gray-400 text-sm mt-4 md:mt-0">
               <span>Made with</span>
