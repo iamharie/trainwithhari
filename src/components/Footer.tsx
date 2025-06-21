@@ -1,4 +1,3 @@
-import React from "react";
 import { FaInstagram, FaEnvelope, FaHeart } from "react-icons/fa";
 import { CgGym } from "react-icons/cg";
 
