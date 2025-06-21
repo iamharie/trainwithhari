@@ -11,7 +11,7 @@ interface HeroProps {
 
 const Hero: React.FC<HeroProps> = ({ onGetStarted }) => {
   return (
-    <div className="relative min-h-screen bg-gradient-to-br from-blue-900 via-blue-800 to-green-800 flex items-center justify-center overflow-hidden">
+    <div className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-green-800 flex items-center justify-center overflow-hidden pt-20 md:pt-28 lg:pt-32 pb-12">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div
