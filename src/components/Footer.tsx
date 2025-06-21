@@ -99,7 +99,7 @@ const Footer = () => {
                 Join hundreds of clients who've achieved their strength goals.
               </p>
               <button className="bg-gradient-to-r from-blue-600 to-green-600 text-white px-6 py-2 rounded-full font-semibold hover:from-blue-700 hover:to-green-700 transition-all duration-300 transform hover:scale-105">
-                Start Your Journey
+                Start Your Journey!
               </button>
             </div>
           </div>
