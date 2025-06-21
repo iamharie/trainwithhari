@@ -1,4 +1,3 @@
-import React from "react";
 import { CgGym } from "react-icons/cg";
 import { HiUsers, HiCalendar, HiLightningBolt, HiHeart } from "react-icons/hi";
 import { FiAward } from "react-icons/fi";
